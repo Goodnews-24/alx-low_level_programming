@@ -3,16 +3,16 @@
 /**
 *main - Program to print alphabet letter followed by new line
 *
-*Return: return 0
+*Return: Always 0
 */
 int main(void)
 {
-	int letter;
+	int n = 97;
 	
-	for (letter = 'a'; letter <= 'z'; letter++)
+	while (n <= 122)
 	{
-		letter = tolower(letter);
-		putchar(letter);
+		putchar(n);
+		n++;
 	}
 	putchar('\n');
 	return (0);
