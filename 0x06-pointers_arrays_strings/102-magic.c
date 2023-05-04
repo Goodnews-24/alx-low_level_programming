@@ -1,11 +1,11 @@
+#include <stdio.h>
+
 /**
  * 8
  * main - main function
  *
  * Return: 0
  */
-
-#include <stdio.h>
 
 int main(void)
 {
